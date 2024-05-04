@@ -1,0 +1,84 @@
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body {background-color: white;
+
+
+    width: 100vw;
+    overflow-x: hidden; 
+flex-wrap: wrap;
+
+}
+  .img {
+     height: auto;
+    object-fit: cover;
+    width: 100% auto;
+    margin-bottom: 11rem;
+     position: relative;
+     align-items: center;
+    
+    
+    
+    }
+    #video{
+        position: absolute;
+        z-index: -1;
+        height: 60vw;
+    
+    
+        
+    }
+    
+        .EX {font-weight: bold;font-size: 60px;
+        color: hsl(240, 36%, 28%);
+        display:flex;
+        padding: 2rem 3rem;
+        justify-content: center;
+    margin-inline-start: 2PX;}
+           .EA {font-weight: bold;
+            font-size: 50px; 
+            color: rgb(228, 30, 4);
+            padding: 2rem 3rem;
+            display:flex;
+            justify-content: center;
+    margin-inline-start: 2PX;
+    font-size: 40px;} 
+
+    .home { font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;}
+
+    .quick {color:rgb(240, 240, 217);}
+    .mom {
+        color: white;
+        font-size: 30px;
+        justify-content: center;
+margin: 20px;
+        border: 1PX;
+        box-shadow: 0 4PX 8PX;
+        background-color: green;
+        width: 18rem;
+        padding: 3px;
+        border-radius: 1rem;
+    }
+    #view {
+        text-align: center;
+        padding: 2rem 3rem;
+
+    }
+    
+    
+    @media (max-width:768px){
+        #video {
+            display: none;
+        }
+        
+        .img{
+            background-image: url(IMAGES/ELEPHANT3.jpg);
+            margin-bottom: -5rem;
+        }
+    }

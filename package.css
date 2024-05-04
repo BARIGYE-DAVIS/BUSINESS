@@ -1,0 +1,1217 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {background-color: white;
+
+    width: 100vw;
+    overflow-x :hidden;
+flex-wrap: wrap;
+
+}
+
+#blog {
+    cursor: pointer;
+}
+#things {
+    cursor: pointer;
+}
+
+#out img {
+    margin: 1rem;
+    border-radius: .7rem;
+}
+  
+.DEN {
+    background-color: rgb(0, 255, 255);
+    padding: .5rem 1rem;
+    margin: 2rem;
+    color: rgb(32, 18, 230);
+    border-radius: 2rem;
+}
+.based {
+    padding: .5rem 1rem;
+}
+.form p {
+    font-size: 25px;
+    margin: 20px;
+    color: rgb(1, 247, 83);
+}
+.margin {
+    margin: 1rem;
+    padding: 0;
+}
+
+.main {
+    background-image: url(IMAGES/davis.jpg);
+    background-size: cover;
+    height: 400px;
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.head { background-image: url(IMAGES/murchison-falls-park.jpg);
+     height: 400px;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+margin-top: 20px;
+padding-top: 30px;}
+h1 {color: rgb(153, 11, 53);
+text-align: center;
+font-style: italic;
+font-size: 50px;}
+h2 {color: rgb(68, 3, 3);
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 40px;}
+.EXPLORE {color: brown;
+font-size: 50PX;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;}
+.private {font-size:
+     25px;
+     padding: .5rem 1rem;
+     color: rgb(48, 43, 43);
+}
+.holiday {font-size: 50px;
+color: brown;
+font-style:italic;
+margin-top: 25px;
+margin-bottom: 15px;}
+.DAY {
+    font-size: 20px;
+    padding: .5rem 1rem;
+    text-wrap: wrap;
+}
+
+.homes {font-size: 15px;
+display: flex;
+position: sticky;
+top: 50px;
+margin-bottom: 1opx;
+flex-direction: row;
+justify-content: space-between;}
+.caption1 {font-size: 15px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: white;
+    position: sticky;
+    
+top: 0;
+z-index: 100;
+background-color: hsl(0, 6%, 79%);
+}
+.logo {
+    padding: 1rem;
+}
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    list-style: none;
+
+}
+.nav-links ul li {
+    padding: 1rem;
+    align-items: right;
+}
+.nav-links ul li a {
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 1rem;
+    background-color: sandybrown;
+    padding: .5rem 1rem;
+    color: white;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.logo {
+    color: #b805af;
+    font-size: 23px;
+    margin: auto;
+    padding: .5rem 1rem;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.nav-links ul li a:hover {
+    color:#0099cc;
+}
+ .caption2 {font-size: 20px;
+ }
+.nav-links ul li:hover {
+   background-color: #2c6eb1;
+}
+ .caption2 {font-size: 20px;
+color: red;
+padding: 5px;
+} 
+
+.radius {border-radius: 10% ;}
+.GET {background-color: #0099cc;
+font-size: 10px;
+margin-top: 50px;
+color: rgb(208, 212, 210);
+padding: 20px;
+width: 100vw;
+font-weight: normal;
+word-spacing: 5px;
+}
+.DOG {margin-top: 50px;
+box-shadow: 0 4px 8px;
+
+margin: 15px;
+border-radius: 10px;
+position: relative;
+width: 450px;
+height: 400px;
+transition: transform 10S ease;
+
+}
+.DOG img {
+border-radius: .5rem;
+}
+img {
+    height: 15rem;
+    width: 20rem;
+}
+
+.DOG:hover {
+    transform: scale(1.2);
+}
+#dots {
+    display: flex;
+}
+.whatsapp span {
+    border: 1rem green;
+    
+    color: white;
+    border-radius: 2rem;
+    width: 10rem;
+    padding: 1rem;
+    padding: 5px;
+   position: absolute;
+   margin-left: -0.1in;
+
+}
+.email{
+background-color: rgb(38, 0, 255);
+border-radius: 3rem;
+padding: 10px;
+height: 2rem;
+width: 15rem;
+z-index: 100;
+position: fixed;
+left: -1rem;
+top: 20rem;
+display: none;
+}
+.email img {
+    height: 2rem;
+    width: 2rem;
+
+    position: relative;
+}
+.email span {
+    position: absolute;
+    margin: 5px;
+    color: white;
+}
+.whatsapp {
+width: 10rem;
+height: 2rem;
+background-color: green;
+border-radius: 2rem;
+padding: 0.5rem;
+position: fixed;
+top: 30rem;
+left: 85%;
+}
+.whatsapp :hover{
+    transform: translate(2);
+}
+a {
+ text-decoration: none;}
+.car {
+    display: flex;
+   transition: transform 3s ease-in-out;
+    flex-wrap: wrap;
+margin-left: 10px;
+position: relative;
+width: 100vw;
+}
+.icon {
+position: relative;
+    height: 2rem;
+    width: 2rem;
+    top: -.8rem;
+    padding: .1rem;
+    font-size: 10rem;
+}
+.dog {
+    align-items: center;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+     margin: 50px 20px;
+     overflow: hidden;
+    width: 100vw;
+}
+.DOG.active {
+    opacity: 1;
+}
+.dog[data-animated=true] {
+   overflow: hidden;
+   width: 90vw;
+   /* -webkit-mask: linear-gradient(transparent,white);
+    mask: linear-gradient(transparent,white);*/
+
+}
+.dog[data-animated=true] .car {
+    flex-wrap: nowrap;
+    
+    
+    cursor: pointer;
+    animation: scroll 26s linear infinite;
+}
+@keyframes scroll {
+   
+    to {
+        transform: translate(-400%);
+    }
+}
+
+
+.plate {margin-top: 50px;
+    box-shadow: 0 4px 8px;
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    position: relative;
+    width: 70vw;
+    height: 500px;}
+   
+.quick {color: rgb(233, 233, 117);
+font-size: 35px;
+font-style: italic;}
+.books {
+width: 80%;
+}
+.for {
+    margin: 20px;
+}
+
+.primate {
+    background-image: url(IMAGES/Kyamburu_Gorge_004@2x.jpg);
+    width: 10% auto;
+    background-size: cover;
+    object-fit: cover;
+    font-size: 50px;
+    text-align: center;
+    height: 400px;
+    color: rgb(63, 152, 230);
+    padding-top: 50px;
+    
+}
+
+#out {
+ display: flex;
+  width: 90vw;
+  justify-content: center;
+  
+ align-items: center;
+ flex-wrap: wrap;
+
+}
+@keyframes slideIn {
+    0% {transform: translateX(-100%)}
+    100% {
+        transform: translateX(100%);
+    }
+ }
+ .plat {margin-top: 50px;
+    box-shadow: 0 4px 8px;
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    position: relative;
+    width: 500PX;
+    height: 600px;
+    transition: transform 10S ease
+ }
+ .man {
+    display: flex;
+margin-left: 50px;
+}
+
+ .plat:hover {
+    transform: scale(1.2);
+ }
+ 
+ 
+.one {
+    font-size: 25px;
+    font-style: italic;
+    color: green;
+    padding: 1rem 2rem;
+    background-color: beige;
+    padding-bottom: 20px;
+}
+.href {
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+}
+figcaption {
+    padding: 1rem 2rem;
+}
+.DOGS img {
+    width: 40rem;
+    height: 20rem;
+    border-radius: 10px;
+
+}
+html {
+ width: 100vw;
+
+
+}
+.css {
+    color: #0099cc;
+    font-size: 20px;
+}
+.menu {
+list-style: none;
+margin-top: 2px;
+padding: 3px;
+display: none;
+text-align: right;
+}
+
+#Entry {
+    display: flex;
+    margin: 5rem;
+    flex-direction: row;
+}
+#MTN {
+    display: flex;
+    justify-content: space-around;
+}
+.menu li {
+    position: relative;
+    
+}
+.privat {
+    color: red;
+    font-size: 35px;
+    font: italic;
+}
+.in {
+    font-size: 40px;
+    color : white;
+    padding: 2rem 3rem;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+.wonder {
+    margin: 20px 5rem;
+}
+.wonder p {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    word-spacing: .3rem;
+
+}
+.wonder p b {
+    font-size: 1.5rem;
+    color: rgb(93, 9, 250);
+    word-spacing: .3rem;
+}
+.on {
+    font-size: 30px;
+    color: rgb(68, 3, 3);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+}
+p {font-size: 25px;}
+.menu li:before {
+    content: '\2022';
+    position: abdolute;
+
+}
+@media( max-width:768px){
+    .home {display: block;}
+    .menu {display: table-colum;}
+    #Entry {
+    display: block;
+     margin: 2rem;
+    
+}
+    #MTN {
+    display: block;
+
+    width: 80vw;
+
+}
+#out {
+    
+    align-items: center;
+}
+   .toggle-button {
+    display: flex;
+}
+.whatsapp{
+    left: 55%;
+}
+
+.detail{
+    width: 95vw;
+}
+.margin p {
+    font-size: 20px;
+}
+.nav-links{
+    display: none;
+}
+.nav-bar{
+    flex-direction: column;
+    align-items: flex-start;
+}
+#Entry.includes{
+width: 60vw;
+}
+.PERI.price {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+form.from {
+    width: 70vw;
+    margin-top: 1rem;
+    background-color:  rgb(48, 73, 73);
+}
+
+.nav-links ul {
+    width: 100%;
+
+    flex-direction: column;
+}
+.nav-links li {
+    text-align: center;
+}
+.link li a {
+    padding: .5rem 1rem;
+}
+.nav-links.active {
+    display: flex;
+}
+
+
+
+    .wonder{
+        font-size: 20px;
+        margin: auto;
+    }
+ .excludes {
+        font-size: 20px;
+    }
+    
+    .wonder p, .based p {
+        font-size: 20px;
+    }
+    div.form {
+        width: 70%;
+    }
+    .link {display: none;}
+
+    .info{
+        width: 80vw;
+    
+    }
+   
+    
+  .dogs .DOGS{
+    
+    width: 20rem;
+    align-items: center;
+    
+    margin: 3rem auto;
+    }
+    .dogs .DOGS img {
+        width: 20rem;
+    }
+
+    .dogs{
+        align-items: center;
+    }
+    .dog {
+        width: 50vw;
+    }
+    .car{
+        width: fit-content;
+        
+    }
+    .Right {
+    left: 5%;
+    }
+    .list li {
+        font-size: 20px;
+    }
+    .lis p {
+        font-size: 20px;
+    
+    }
+    
+    .D0GS{
+        width: 10%;
+    
+    }
+    .excludes, .includes {
+        align-items: center;
+    }
+ 
+}
+    
+    
+    .includes {
+        border: 2px  lightgreen;
+        background-color: aliceblue;
+        font-size: 10px;
+        font-weight: lighter;
+        
+        margin: 2rem;
+        background-color:  rgb(48, 73, 73);
+        box-shadow: 0 8px 10px lightgreen;
+        
+        border-radius: 10px;
+        color: white;
+        
+        word-spacing: 5px;
+        width: 50vw;
+    }
+    .includes p {
+        font-size: 1.3rem;
+        padding: .5rem 1rem;
+    }
+  .bit{
+    width: 90%;
+    padding: 5px;
+    margin-top: 50px;
+  }
+
+  .Right{
+left: 50%;
+margin-left: -10%;
+
+
+
+  }
+    
+
+    .ug {
+        background-size: 100%;
+        width: 100%;
+        height: 350%;
+        margin-bottom: -100%;
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+    h1 { top: auto;}
+
+    .Kidepo {
+        padding: 20px;
+        margin: 0 auto;
+        height: 580px;
+    background-repeat: no-repeat;
+    margin-bottom: auto;
+    
+    }
+
+    
+    
+    .img {
+        background-repeat: no-repeat;
+    }
+ 
+   /* .form {
+        width: 100%;
+    }*/
+    
+    #gorilla {
+        font-size: small;
+        
+        padding-top: 10px;
+    }
+    .car {
+        width: 100%;
+
+    }
+    .best {
+        font-size: 30px;
+    
+    }
+    .big {
+
+        background-repeat: no-repeat;
+        margin-bottom: -200px;
+    }
+    
+
+
+
+    
+
+    .out {
+        display: block;
+    }
+    .video {
+        width: 50%;
+        height: 50%;
+        margin: 20px;
+        border-radius: 5px;
+    }
+
+.big {
+    margin-bottom: 10px;
+    background-image: url(IMAGES/murchison-falls-1229x820x184x0x860x820x1656053925.webp);
+    width: 100% auto;
+    background-size: cover;
+    object-fit: cover;
+    height: 400px;
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.falls {
+    display: flex;
+    flex-direction:row
+}
+.DOGS{
+    margin-top: 50px;
+box-shadow: 0 4px 8px;
+
+margin-right: 30px;
+border-radius: 10px;
+height: 30rem;
+width: 40rem;
+transition: transform 10s ease;
+}
+.DOGS:hover {
+    transform: scale(1.2);
+}
+.dogs {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 0px;
+    align-items: center;
+
+}
+.D0GS img {
+    width: 700px;
+}
+.ddd {
+    width: 600x;
+    padding-left: -10px;
+
+}
+.wonder {
+    padding: .5rem 1rem;
+}
+.MBURO{
+    background-image: url(IMAGES/giraffe.jpg);
+
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    color: white;
+}
+ #demo {
+    display: none;
+ }
+
+ #gorilla {
+    background: url(IMAGES/WATER\ FALLS\ MUR.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 500px;
+    font-size: 40px;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    word-spacing: 20px;
+    text-align: center;
+    color: white
+ }
+.pic {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+.pic img {
+    margin: .5rem;
+}
+
+
+.from {
+    background-color:  rgb(48, 73, 73);
+    border: 2px solid lightblue;
+    width: 30vw;
+    
+    border-radius: 10px;
+    align-content: center;
+     
+    
+}
+.from h3 {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+input {
+    background-color:  rgb(2, 73, 73);
+    height: 2.5rem;
+    width: 15rem;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+.from button{
+    background-color: rgb(23, 236, 236);
+    color: white;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    margin: 1rem 4rem;
+   cursor: pointer;
+}
+label {
+    color: #fff;
+    font-size: 1.5rem;
+}
+textarea {
+
+    height: 5rem;
+    width: 15rem;
+    border-radius: 1rem;
+    padding: .5rem;
+    background-color: #f1f1f1;
+}
+.name {
+    margin: 20px;
+}
+.decide,.desired {
+    background-color: peru;
+    margin: 20px;
+}
+.submit {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    color: green;
+}
+#kidepo {
+    display: none;
+}
+#sss {
+    display: none;
+background-color: aliceblue;
+border: 1px;
+}
+.davis {
+    border: 1px lightcyan;
+
+    width: 400px;
+    border-radius: 5px;
+} 
+  .Kidepo {
+    background-image: url(IMAGES/Kidepo.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+    height: 500PX;
+    margin-top: 10PX;
+    margin-bottom: 50px;
+  }  
+  .best {
+    background-image: url(IMAGES/ELEPHANT3.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 600PX;
+    padding-top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+  }
+  .blog {
+    font-size: 45px;
+    color: blue;
+    text-align: center;
+  }
+  .go {
+    color: rgb(240, 9, 9);
+    font-style: italic;
+  }
+  .Africa {
+    color: green;
+  }
+  .par {
+    margin-left: 50px;
+  }
+  p  {
+   padding: 0rem;
+  }
+  .do {
+    background-image: url(IMAGES/WATER\ FALLS\ MUR.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+height: 500PX;
+padding-top: 100PX;
+  }
+  .content {
+    display: none;
+}
+.content.show{
+    display: block;
+}
+.btn {
+    display: none;
+}
+.btn.show {
+    display: block;
+    height: 500PX;
+}
+.can {
+    display: none;
+}
+.can.show {display: block;}
+.cow { display: none;}
+.cow.show {
+     display: block;
+     height: 500px;
+    }
+.com {display: none;}
+.com.show {
+    display: block;
+height: 500px;
+}
+.but {display: none;}
+.but.show {
+    display: block;
+height: 500PX;}
+.sev {display: none;}
+.sev.show {
+    display: block;
+    height: 500PX;
+}
+.eight {display: none;}
+.eight.show {
+    display: block;
+    height: 500PX;
+}
+.nine {display: none;}
+.nine.show {display: block;
+height: 500PX;}
+.ten {display: none;}
+.ten.show {display: block;
+height: 500PX;}
+
+.drop {
+color: aqua;}
+.ex1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    size: 10px;
+    width: 30px;
+    height: 30px;
+
+}
+.davis {
+    color: aqua;
+}
+
+
+
+
+
+
+
+#dog {
+    height: 75PX;
+    width: 25rem;
+    padding: 1ic;
+    margin: 0 auto;
+    border: 1PX gray solid;
+    border-radius: 5PX;
+    overflow: hidden;
+position: relative;
+}
+
+.sixty {
+    font-size: 35px;
+    font-style: italic;
+    color: green;
+    margin-left: 40px;
+ }
+
+.pan {
+    margin-top: -35px;
+}
+ 
+.left {
+    cursor: pointer;
+    position: sticky;
+    left: 0;
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    top: 40%;
+    border-radius: 50%;
+    
+}
+.Right {
+    cursor: pointer;
+   border-radius: 50%;
+    font-size: 30px;
+    color: green;
+    left: 80%;
+    position: absolute;
+    top: 40%;
+}
+.Right:hover {
+    color: red;
+}
+#span{
+    width: 70px;
+    height: 60px;
+    color: lightblue;
+}
+.png {
+    width: 70px;
+    height: 60px;
+    color: lightblue;
+}
+#pan{
+
+    color: lightblue;
+    width: 60px;
+    height: 60px;
+}
+.many {
+    position: relative;
+
+    margin: 50px;
+    width: 100%;
+    overflow: hidden;
+    }
+    .dot {
+        display: flex;
+        width: 75%;
+        transition: transform 5s ease-in-out;
+
+    }
+    .arrows UL {
+        display: flex;
+        left: 40%;
+        position: relative;
+    }
+    .arrows UL li{
+        height: 20px;
+        width: 20px;
+        border: 1px solid #333;
+        list-style: none;
+        margin: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    
+    }
+    
+    .arrows uL li.selected {
+        background-color: blueviolet;
+    }
+    /*@media only screen and (max-width) {
+    body{
+        width: 100%;
+    }
+    .car{
+        width: 30%;
+    }
+
+    }*/
+    .fort {
+        height: 20rem;
+        border: #333 solid;
+        padding: 10px;
+        width: 15rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px;
+    }
+    .trip { background-image: url(IMAGES/gorilla-trekking-700x450.jpg);
+        height: 400px; width: 100% auto; object-fit: cover;
+        background-size: 100%;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+    .book button {
+        color: rgb(23, 23, 235) ;
+        height: 3rem;
+        width: 10rem;
+        border-radius: 3rem;
+        box-shadow: 0px 4px 6px ;
+        background-color: aqua;
+    }
+    #book {
+        display: none;
+    }
+  .form button {
+    color: blue;
+    height: 3rem;
+    margin: 20px;
+    width: 7rem;
+    border-radius: 3rem;
+    border: 2rem;
+    box-shadow: 0rem 4rem 6rem;
+    background-color: rgb(52, 212, 159);
+  }
+  form button {
+    color: blue;
+    height: 3rem;
+    margin: 20px;
+    width: 7rem;
+    border-radius: 3rem;
+    border: 2rem;
+    box-shadow: 0rem 4rem 6rem;
+
+  }
+  form input {
+    background-color: #fff;
+    color: green
+  }
+  form {
+    background-color:  rgb(48, 73, 73);
+    border: 2px solid lightblue;
+    width: fit-content;    
+    border-radius: 10px;
+    padding: 20px;
+    align-content: center;
+    padding-left: 20px;
+
+}
+.per { color: peru;
+    padding: 1rem 2rem;
+    font-size: 25px;
+    text-align: center;
+    display: none;
+}
+.price {
+    color: green;
+    padding: .5rem 1rem;
+    font-size: 25px;
+    margin: 50pt;
+    display: none;
+    
+    
+}
+.PERI {
+
+    width: 40rem ;
+    
+
+}
+#MTN {
+    padding: 1rem 2rem;
+}
+.info {
+    background-color: #b9baf5;
+    border: 1px solid greenyellow;
+    font-size: 20px;
+    box-shadow: 0px 6px 8px #fff;
+    word-spacing: 5px;
+    border-radius: 10px;
+    width: 50vw;
+    padding: .5rem 1rem;
+
+}
+.high {
+    text-align: center;
+    background-color: rgb(48, 73, 73);
+    width: 60vw;
+    margin: 1rem auto;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #fff;
+    position: relative;
+}
+.list p {
+    padding: .5rem 1rem;
+}
+.list {
+    color: #fff;
+    font-size: 25px;
+    margin: 1rem auto;
+    height: 0;
+    transition: 1s;
+    background-color: rgb(48, 73, 73);
+    width: 80vw;
+
+    overflow: hidden;
+}
+.list li {
+
+margin: .2rem auto;
+text-align: center;
+
+}
+
+.lis {
+    color: rgb(7, 174, 240);
+    font-size: 25px;
+    justify-content: center;
+    padding: 1rem 2rem;
+    
+}
