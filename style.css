@@ -117,3 +117,8 @@ textarea::placehold
 er {
     color: #ffffff;
 }
+table{
+    width: fit-content;
+    background-color: #23b6cf;
+    margin: 0 auto;
+}
