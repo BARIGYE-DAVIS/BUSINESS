@@ -133,7 +133,9 @@ td{
 }
 .tick{
     color: rgb(9, 214, 88);
+    padding: 1rem;
 }
 .cross{
     color: rgb(192, 137, 137);
+    padding: 1rem;
 }
