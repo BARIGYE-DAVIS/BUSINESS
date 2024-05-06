@@ -97,6 +97,7 @@ margin-bottom: 1opx;
 flex-direction: row;
 justify-content: space-between;}
 .caption1 {font-size: 15px;
+    margin: .5rem;
 }
 
 .nav-bar {
@@ -167,9 +168,10 @@ background-color: hsl(0, 6%, 79%);
 .nav-links ul li:hover {
    background-color: #2c6eb1;
 }
- .caption2 {font-size: 20px;
-color: red;
+ .caption2,.shs {font-size: 20px;
+color: rgb(21, 39, 138);
 padding: 5px;
+
 } 
 
 .radius {border-radius: 10% ;}
@@ -338,6 +340,9 @@ width: 80%;
     color: rgb(63, 152, 230);
     padding-top: 50px;
     
+}
+figcaption{
+    margin: .5rem;
 }
 
 #out {
