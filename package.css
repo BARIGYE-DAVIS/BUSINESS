@@ -259,12 +259,13 @@ left: 85%;
 .call {
     background-color: lightblue;
     border-radius: 2rem;
-    width: 25vw;
+    width: 20vw;
     padding: .5rem;
     position: absolute;
     bottom: 10rem;
     position: fixed;
-    left: 80%;
+    left: 75%;
+    margin: 1rem;
 }
 .call a{
     color: #fff;
