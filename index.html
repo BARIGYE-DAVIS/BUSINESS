@@ -45,16 +45,27 @@
         </DIV>
     <div id="view"><a href="safaris.html" class="mom"> VIEW ALL TOURS</a></div>
     </DIV>
-<button type="button" onclick="document.getElementById('demo').style.display='block'" class="DEN">
+<button type="button" class="DEN">
     BOOK WITH US
     </button>
-<FOrm action="now.php" method="post" id="demo" style="display: none;" >
+<FOrm action="now.php" method="post" id="demo">
     <p><label for="Name"></label>NAME<input type="text" name="name" placeholder="your name" class="grey" required></p>
     <p><label for="email"> email</label> <input type="email" name="email" placeholder="E-mail address" class="grey" required></p>
     <p><label for="days">Days</label> <input type="number" name="days" placeholder="number OF days" class="grey" required></p>
     <p><label for="date">date you wish to start</label><input type="date" name="date" placeholder="start date" class="grey" required></p>
     <button>send</button>
         </FOrm>
+        <script>
+            var click = document.querySelector(".DEN");
+            var display = document.querySelector("#demo");
+            click.addEventListener("click", function(){
+                if (display.style.display === "none"){
+                    display.style.display = "block";
+            }else{
+                display.style.display = "none";
+            }
+        });
+        </script>
         <div class="email">
 <a href="BARIGYE:barigyedavis6@gmail.com">
     <img src="IMAGES/email.png" alt="">

@@ -30,6 +30,7 @@ flex-wrap: wrap;
     padding: .5rem 1rem;
     margin: 2rem;
     color: #fff;
+    cursor: pointer;
     margin-left: 20pt;
     
     border-radius: 1rem;
@@ -800,6 +801,8 @@ transition: transform 10s ease;
 }
  #demo {
     display: none;
+    margin: 0 auto;
+    
  }
 
  #gorilla {
