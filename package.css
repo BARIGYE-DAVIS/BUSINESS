@@ -31,6 +31,15 @@ flex-wrap: wrap;
     margin: 2rem;
     color: #fff;
     margin-left: 20pt;
+    
+    border-radius: 1rem;
+}
+button.DEN {
+    background-color: rgb(6, 75, 75);
+    padding: .5rem 1rem;
+    margin: 2rem;
+    color: #fff;
+    margin-left: 20rem;
     border-radius: 1rem;
 }
 .based {
@@ -259,12 +268,13 @@ left: 85%;
 .call {
     background-color: rgb(6, 76, 85);
     border-radius: 2rem;
-    width: 25vw;
+    width: fit-content;
     padding: .5rem;
     position: absolute;
-    bottom: 10rem;
+    top: 5rem;
     position: fixed;
-    left: 75%;
+    left: 80%;
+    z-index: 100;
     margin: 1rem;
 }
 .call a{
@@ -509,8 +519,15 @@ p {font-size: 25px;}
    .toggle-button {
     display: flex;
 }
-.whatsapp,.call{
+.whatsapp{
     left: 55%;
+}
+.call{
+    left: 70%;
+
+}
+button.DEN{
+    margin-top: 5rem;
 }
 
 .detail{
