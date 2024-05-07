@@ -201,10 +201,10 @@ International airport.</p>
         <div>
         <form action="book.php" id="book" method="post">
             <label for="name">NAME:</label> <input type="text" name="name" class="grey">
-            <p><label for="number_of_people">NUMBER OF PEOPLE</label> <input type="number" name="number_of_people" class="grey"></p>
-            <p><label for="email">Email</label> <input type="email" name="email" class="grey"></p>
-            <p><label for="passport_number">passport number</label> <input type="text" name="passport_number" class="grey"></p>
-            <p><label for="whatsapp_number">whatsapp number</label> <input type="tel" name="whatsapp_number" class="grey"></p>
+            <p><label for="number_of_people">NUMBER OF PEOPLE</label> <input type="number" name="number_of_people" class="grey" required></p>
+            <p><label for="email">Email</label> <input type="email" name="email" class="grey" required></p>
+            <p><label for="passport_number">passport number</label> <input type="text" name="passport_number" class="grey" required></p>
+            <p><label for="whatsapp_number">whatsapp number</label> <input type="tel" name="whatsapp_number" class="grey" required></p>
             <p><label for="passpor">passport photo</label> <input type="file" name="passport photo" accept="image/*" class="grey"></p>
             <button>send</button>
         </form>
@@ -219,10 +219,10 @@ International airport.</p>
     <div>
         <form   class="from" action="davsi.php" method="post"  >
             <h3>Alternatively, request info</h3>
-            <DIv > <label for="">NAME</label><input type="text" name="name"  placeholder="YOUR NAME" class="grey"> </DIv>
-            <div><Label>DAYS</Label><input type="number" name="days"  placeholder="number of days" class="grey"></div>
-            <div><Label> EMAIL</Label><input type="email" name="email" placeholder="Your email address" class="grey"></div>
-            <div> <Label>MESSAGE</Label><textarea name="message" id="" cols="30" rows="15" placeholder="message" class="grey"></textarea></div>
+            <DIv > <label for="">NAME</label><input type="text" name="name"  placeholder="YOUR NAME" class="grey" required> </DIv>
+            <div><Label>DAYS</Label><input type="number" name="days"  placeholder="number of days" class="grey" required></div>
+            <div><Label> EMAIL</Label><input type="email" name="email" placeholder="Your email address" class="grey" required></div>
+            <div> <Label>MESSAGE</Label><textarea name="message" id="" cols="30" rows="15" placeholder="message" class="grey" required></textarea></div>
             <button name="submit">SEND</button>
         </form>
     </div>
