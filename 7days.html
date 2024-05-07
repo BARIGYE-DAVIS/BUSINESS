@@ -192,10 +192,10 @@
             <div>
             <form action="book.php" method="post" id="book">
                 <label for="name">NAME:</label> <input type="text" name="name">
-                <p><label for="number">NUMBER OF PEOPLE</label> <input type="number" name="number" class="grey"></p>
-                <p><label for="email">Email</label> <input type="email" name="email" class="grey"></p>
-                <p><label for="passport">passport number</label> <input type="text" name="number" v></p>
-                <p><label for="telephone">whatsapp number</label> <input type="tel" name="telephone" class="grey"></p>
+                <p><label for="number">NUMBER OF PEOPLE</label> <input type="number" name="number" class="grey" required></p>
+                <p><label for="email">Email</label> <input type="email" name="email" class="grey" required></p>
+                <p><label for="passport">passport number</label> <input type="text" name="number" class="grey" required></p>
+                <p><label for="telephone">whatsapp number</label> <input type="tel" name="telephone" class="grey" required></p>
                 <p><label for="passport">passport photo</label> <input type="file" name="passport photo" accept="image/*" ></p>
                 <button>send</button>
             </form>
@@ -210,11 +210,11 @@
         <div>
             <form   class="from" action="davsi.php" method="post"  >
                 <h3>Alternatively, request info</h3>
-            <DIv > <label for="name">NAME</label><input type="text" name="name"  placeholder="YOUR NAME" class="grey"> </DIv>
-            <div> <label for="email">EMAIL</label><input type="email"  placeholder="Email" class="grey"></div>
-            <div>  <label for="days">Number of Days</label><input type="number" name="days" placeholder="Nunber of days" class="grey"></div>
+            <DIv > <label for="name">NAME</label><input type="text" name="name"  placeholder="YOUR NAME" class="grey" required> </DIv>
+            <div> <label for="email">EMAIL</label><input type="email"  placeholder="Email" class="grey"required></div>
+            <div>  <label for="days">Number of Days</label><input type="number" name="days" placeholder="Nunber of days" class="grey" required></div>
            
-            <div><label for="message">message</label><textarea name="message" id="" cols="30" rows="15" placeholder="message" class="grey"></textarea></div>
+            <div><label for="message">message</label><textarea name="message" id="" cols="30" rows="15" placeholder="message" class="grey" required></textarea></div>
             <button>SEND</button>
         
         </form>
