@@ -216,10 +216,8 @@ img {
     color: white;
     border-radius: 2rem;
     width: 10rem;
-    padding: 1rem;
-    padding: 5px;
    position: absolute;
-   margin-left: -0.1in;
+   margin-left: 0.1in;
 
 }
 .email{
@@ -258,6 +256,19 @@ left: 85%;
 .whatsapp :hover{
     transform: translate(2);
 }
+.call {
+    background-color: lightblue;
+    border-radius: 2rem;
+    width: 25vw;
+    padding: .5rem;
+    position: absolute;
+    bottom: 10rem;
+    position: fixed;
+    left: 80%;
+}
+.call a{
+    color: #fff;
+}
 a {
  text-decoration: none;}
 .car {
@@ -272,7 +283,7 @@ width: 100vw;
 position: relative;
     height: 2rem;
     width: 2rem;
-    top: -.8rem;
+    top: -.6rem;
     padding: .1rem;
     font-size: 10rem;
 }
@@ -496,7 +507,7 @@ p {font-size: 25px;}
    .toggle-button {
     display: flex;
 }
-.whatsapp{
+.whatsapp,.call{
     left: 55%;
 }
 
