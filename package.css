@@ -12,6 +12,12 @@ body {background-color: white;
 flex-wrap: wrap;
 
 }
+p a {
+    color: #0ee78d;
+    padding: 2rem;
+    margin-top: 2rem;
+
+}
 
 #blog {
     cursor: pointer;
