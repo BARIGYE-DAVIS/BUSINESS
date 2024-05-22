@@ -254,16 +254,10 @@ left: -1rem;
 top: 20rem;
 display: none;
 }
-.email img {
-    height: 2rem;
-    width: 2rem;
-
-    position: relative;
-}
-.email span {
-    position: absolute;
-    margin: 5px;
-    color: white;
+advisor {
+    height: 6rem;
+    border-radius: 1rem;
+    width: 5rem;
 }
 .whatsapp {
 width: 10rem;
