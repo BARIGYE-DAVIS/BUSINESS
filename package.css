@@ -1296,7 +1296,7 @@ p.phoni {
     
     font-size: 20px;
     margin: .3rem;
-    
+    margin-top: 1rem;
     border-radius: 10px;
     
 
@@ -1319,4 +1319,8 @@ p.phoni {
     position: absolute;
     margin-right: -.5rem;
     
+} 
+.contact {
+    color: #3b2626;
+    font-size: 2rem;
 }
