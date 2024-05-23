@@ -13,10 +13,11 @@ flex-wrap: wrap;
 
 }
 p a {
-    color: #587a6c;
+    color: #eb6213;
     padding: 2rem;
     margin-top: 2rem;
     margin: 2rem;
+
 
 }
 
@@ -192,7 +193,8 @@ padding: 5px;
 
 } 
 .line {
-    margin:  3rem;
+    margin:  1.4rem;
+    margin-top: 3rem;
 }
 .line p {
     margin: 1rem;
@@ -254,11 +256,11 @@ left: -1rem;
 top: 20rem;
 display: none;
 }
-advisor {
-    height: 6rem;
-    border-radius: 1rem;
-    width: 5rem;
-}
+
+#icon{
+    
+        height: 2rem;
+    }
 .whatsapp {
 width: 10rem;
 height: 2rem;
@@ -298,6 +300,18 @@ margin-left: 10px;
 position: relative;
 width: 100vw;
 }
+.tripadvisor{
+    
+    color: white;
+    font-size: 20px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+
+}
 .icon {
 position: relative;
     height: 2rem;
@@ -305,6 +319,16 @@ position: relative;
     top: -.6rem;
     padding: .1rem;
     font-size: 10rem;
+}.icons {
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+    margin: 1rem;
+}
+.reveiw {
+    color: green;
+    position: absolute;
+    top:
 }
 .dog {
     align-items: center;
@@ -615,7 +639,9 @@ form.from {
     .dogs .DOGS img {
         width: 20rem;
     }
-
+    .line {
+        margin: .1rem;
+    }
     .dogs{
         align-items: center;
     }
@@ -1263,5 +1289,34 @@ text-align: center;
     font-size: 25px;
     justify-content: center;
     padding: 1rem 2rem;
+    
+}
+p.phoni {
+
+    
+    font-size: 20px;
+    margin: .3rem;
+    
+    border-radius: 10px;
+    
+
+    
+}
+.phoni a {
+    color: #fff;
+    margin: .1rem;
+}
+.contactinfo{
+    margin-right: auto;
+    margin-left: auto;
+}
+.phoni span img {
+    color: #fff;
+    margin: .1rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 10rem;
+    position: absolute;
+    margin-right: -.5rem;
     
 }
