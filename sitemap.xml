@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.apesafricasafaristoursandtraveluganda.tech/ (Replace with your actual website address)</loc>
+    <lastmod>2024-05-24</lastmod>
+    <priority>1.0</priority>
+  </url>
+     <image:image>
+      <image:loc>https://www.apesafricasafaristoursandtraveluganda.tech/IMAGES/IMAGES/chimp.jpg</image:loc>
+    </image:image>
+     <image:image>
+      <image:loc>https://www.apesafricasafaristoursandtraveluganda.tech/IMAGES/IMAGES/ELEPHANT.jpg</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.apesafricasafaristoursandtraveluganda.tech/IMAGES/IMAGES/monkey.jpg </image:loc>
+    </image:image>
+
+  </url>
+
+    
+
+  <url>
+    <loc>https://www.apesafricasafaristoursandtraveluganda.tech/About-us.html</loc>
+    <lastmod>2024-05-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.apesafricasafaristoursandtraveluganda.tech/Safaris.html</loc>
+    <lastmod>2024-05-24</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.apesafricasafaristoursandtraveluganda.tech/12 Day.html</loc>
+    <lastmod>2024-05-24</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.apesafricasafaristoursandtraveluganda.tech/Blog.html</loc>
+    <lastmod>2024-05-24</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.apesafricasafaristoursandtraveluganda.tech/Things.html</loc>
+    <lastmod>2024-05-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
