@@ -20,7 +20,12 @@ p a {
 
 
 }
-
+.copyright {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    
+}
 #blog {
     cursor: pointer;
 }
@@ -545,6 +550,12 @@ p {font-size: 25px;}
 
     width: 80vw;
 
+}
+.copyright {
+    font-size: 1rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    
 }
 #out {
     
