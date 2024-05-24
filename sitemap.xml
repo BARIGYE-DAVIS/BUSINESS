@@ -16,13 +16,13 @@
     <image:image>
       <image:loc>https://www.apesafricasafaristoursandtraveluganda.tech/IMAGES/monkey.jpg </image:loc>
     </image:image>
-
+  <priority>1.0</priority>
   </url>
 
     
 
   <url>
-    <loc>https://www.apesafricasafaristoursandtraveluganda.tech/About-us.html</loc>
+    <loc>https://www.apesafricasafaristoursandtraveluganda.tech/About.html</loc>
     <lastmod>2024-05-24</lastmod>
     <priority>0.8</priority>
   </url>
@@ -30,7 +30,7 @@
   <url>
     <loc>https://www.apesafricasafaristoursandtraveluganda.tech/Safaris.html</loc>
     <lastmod>2024-05-24</lastmod>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
@@ -42,13 +42,13 @@
   <url>
     <loc>https://www.apesafricasafaristoursandtraveluganda.tech/Blog.html</loc>
     <lastmod>2024-05-24</lastmod>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://www.apesafricasafaristoursandtraveluganda.tech/Things.html</loc>
     <lastmod>2024-05-24</lastmod>
-    <priority>0.5</priority>
+    <priority>0.9</priority>
   </url>
 
 </urlset>
