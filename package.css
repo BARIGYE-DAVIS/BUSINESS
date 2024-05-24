@@ -325,11 +325,12 @@ position: relative;
     top: -.6rem;
     padding: .1rem;
     font-size: 10rem;
-}.icons {
+}
+.icons {
     height: 4rem;
     width: 4rem;
-    position: relative;
-    margin: 1rem;
+    
+
 }
 
 .dog {
