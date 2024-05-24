@@ -38,6 +38,7 @@ p a {
     padding: .5rem 1rem;
     margin: 2rem;
     color: #fff;
+    display: none;
     cursor: pointer;
     margin-left: 20pt;
     
