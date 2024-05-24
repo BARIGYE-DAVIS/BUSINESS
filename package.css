@@ -40,12 +40,11 @@ p a {
   
 .DEN {
     background-color: rgb(6, 75, 75);
-    padding: .5rem 1rem;
-    margin: 2rem;
+    
     color: #fff;
-    display: none;
+
     cursor: pointer;
-    margin-left: 20pt;
+
     
     border-radius: 1rem;
 }
@@ -54,7 +53,7 @@ button.DEN {
     padding: .5rem 1rem;
     margin: 2rem;
     color: #fff;
-    margin-left: 20rem;
+    
     border-radius: 1rem;
 }
 .based {
@@ -522,6 +521,7 @@ text-align: right;
 }
 .on {
     font-size: 30px;
+    
     color: rgb(68, 3, 3);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
