@@ -883,6 +883,7 @@ transition: transform 10s ease;
     display: flex;
     flex-direction: row;
     overflow: scroll;
+    margin-top: 2rem;
 }
 .pic img {
     margin: .5rem;
@@ -1324,7 +1325,7 @@ p.phoni {
     
     font-size: 20px;
     margin: .3rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     border-radius: 10px;
     
 
