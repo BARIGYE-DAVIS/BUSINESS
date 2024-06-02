@@ -34,15 +34,16 @@ flex-wrap: wrap;
         
     }
     
-        .EX {font-weight: bold;font-size: 60px;
-        color: hsl(240, 36%, 28%);
-        display:flex;
+        .EX {font-weight: bold;
+            font-size: 1.8rem;
+        color: hsl(155, 93%, 39%);
+      text-align: center;
         padding: 2rem 3rem;
         justify-content: center;
     margin-inline-start: 2PX;}
            .EA {font-weight: bold;
             font-size: 50px; 
-            color: rgb(228, 30, 4);
+            color: rgb(7, 95, 136);
             padding: 2rem 3rem;
             display:flex;
             justify-content: center;
